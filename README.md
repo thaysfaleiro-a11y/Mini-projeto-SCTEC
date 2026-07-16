@@ -1,4 +1,4 @@
-**Pipeline Preditivo para a Indústria 4.0**
+**Pipeline Preditivo para a Indústria **
 
 
 
