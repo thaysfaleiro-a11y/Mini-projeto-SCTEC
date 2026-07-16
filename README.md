@@ -19,7 +19,7 @@ O objetivo principal consiste em monitorar sensores de um parque fabril em tempo
 
 ---
 
-##Tecnologias e Bibliotecas Utilizadas
+**Tecnologias e Bibliotecas Utilizadas**
 
 * **Python 3.10+**
 * **Pandas & NumPy:** Limpeza, imputação estatística e manipulação dos dados brutos.
