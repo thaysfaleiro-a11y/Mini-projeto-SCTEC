@@ -44,7 +44,18 @@ Mini-projeto-SCTEC/
 
 
 
-git clone [https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git](https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git)
+
+Clone este repositório em sua máquina local:
+git clone https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git
+
+
+Acesse a pasta do projeto:
+cd Mini-projeto-SCTEC
+
+
+Instale as dependências listadas no requirements.txt:
+pip install -r requirements.txt
+
 
 
 
