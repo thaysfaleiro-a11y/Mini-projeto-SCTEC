@@ -1,4 +1,4 @@
-#Predicta-Industry: Pipeline Preditivo para a Indústria 4.0
+**#Pipeline Preditivo para a Indústria 4.0**
 
 
 
@@ -29,6 +29,7 @@ O objetivo principal consiste em monitorar sensores de um parque fabril em tempo
 
 ## Estrutura do Repositório
 
+
 O repositório está organizado de forma clara e profissional:
 
 ```text
@@ -38,13 +39,11 @@ Mini-projeto-SCTEC/
 ├── requirements.txt                    # Dependências e pacotes necessários
 └── Projeto_avaliativo_Módulo_1.ipynb   # Notebook oficial contendo as 7 fases do pipeline
 
+
+
 git clone [https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git](https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git)
 
 
 
 
-cd Mini-projeto-SCTEC
 
-
-
-pip install -r requirements.txt
