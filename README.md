@@ -1,4 +1,4 @@
-# Predicta-Industry: Pipeline Preditivo para a Indústria 4.0
+# Projeto avaliativo módulo 1 - SCTEC
 
 
 
