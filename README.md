@@ -43,6 +43,15 @@ Mini-projeto-SCTEC/
 └── Projeto_avaliativo_Módulo_1.ipynb   # Notebook oficial contendo as 7 fases do pipeline
 
 
+### Opção 2: Execução Local
+
+1. Clone este repositório em sua máquina local:
+```bash
+git clone [https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git](https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git)
+
+
+
+
 
 
 
