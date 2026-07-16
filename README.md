@@ -31,7 +31,7 @@ Este repositório contém o desenvolvimento de um **Pipeline Preditivo de Machin
      ```bash
      pip install -r requirements.txt
      ```
-   * Execute o arquivo de Notebook Jupyter em seu ambiente preferido.
+  
 
 ---
 
@@ -39,4 +39,4 @@ Este repositório contém o desenvolvimento de um **Pipeline Preditivo de Machin
 Melhorias Futuras Propostas
 * **Métricas de Negócio:** Substituição da Acurácia por análise detalhada de **Recall e F1-Score** para mapeamento real do impacto financeiro de falsos negativos.
 * **Algoritmos Avançados:** Implementação de algoritmos de *Ensemble* (como Random Forest ou XGBoost) para ganho de robustez frente a ruídos de sensores.
-* **Dados Temporais:** Construção de janelas e médias móveis para avaliar o desgaste gradual do maquinário ao longo do tempo.
+* **Dados Temporais:** Construção de janelas e médias móveis para avaliar o depreciação física gradual do maquinário ao longo do tempo.
