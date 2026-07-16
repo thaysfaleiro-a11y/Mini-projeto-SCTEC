@@ -2,7 +2,8 @@
 
 
 
-Este projeto consiste em um pipeline preditivo completo de ponta a ponta para a previsão de falhas mecânicas em equipamentos industriais. Desenvolvido como o **Projeto Avaliativo do Módulo 1** do curso de **Desenvolvedor(a) em IA para Análise Preditiva (SCTEC)**, o sistema utiliza técnicas avançadas de preparação de dados, engenharia de atributos e modelagem estatística aplicada ao contexto de manufatura inteligente.
+Este projeto consiste em um pipeline preditivo completo para a previsão de falhas mecânicas em equipamentos industriais. 
+Desenvolvido como o **Projeto Avaliativo do Módulo 1** do curso de **Desenvolvedor(a) em IA para Análise Preditiva (SCTEC)**, o sistema utiliza técnicas avançadas de preparação de dados, engenharia de atributos e modelagem estatística aplicada ao contexto de manufatura inteligente.
 
 ---
 
@@ -12,6 +13,8 @@ O objetivo principal consiste em monitorar sensores de um parque fabril em tempo
 
 **A Variável Alvo:**
 * **Falha = 1:** Avaria detectada no maquinário.
+
+  
 * **Falha = 0:** Funcionamento operacional normal.
 
 ---
