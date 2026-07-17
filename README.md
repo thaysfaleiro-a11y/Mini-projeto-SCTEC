@@ -37,9 +37,9 @@ Mini-projeto-SCTEC/
 ## Como Executar
 
 1. Clone o repositório:
-   ```bash
+   ```[bash
    git clone https://github.com/<thaysfaleiro>/Mini-projeto-SCTEC.git
-   cd Mini-projeto-SCTEC
+   cd Mini-projeto-SCTEC](https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git)
    ```
 
 ## Resultados
