@@ -60,7 +60,7 @@ Mini-projeto-SCTEC/
 
 ## Autor
 
-Desenvolvido por Thays Faleiro como projeto avaliativo do Módulo 1 do curso de Desenvolvedor(a) em IA para Análise Preditiva — SCTEC.
+Desenvolvido por Thays Faleiro como projeto avaliativo do Módulo 1 do curso de Desenvolvimento em IA para Análise Preditiva — SCTEC.
 
 
 
