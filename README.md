@@ -56,9 +56,12 @@ cd Mini-projeto-SCTEC
 - Criar atributos temporais (médias e desvios móveis) a partir do histórico dos sensores.
 - Integrar o pipeline a sistemas SCADA para inferência em tempo real.
 
+- ## Vídeo de demonstração
+
+
 ## Autor
 
-Desenvolvido por Thays Faleiro como projeto avaliativo do Módulo 1 do curso de Desenvolvimento em IA para Análise Preditiva — SCTEC.
+Desenvolvido por * **Thays Faleiro** - [GitHub](https://github.com/thaysfaleiro-a11y) como projeto avaliativo do Módulo 1 do curso de Desenvolvimento em IA para Análise Preditiva — SCTEC.
 
 
 
