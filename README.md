@@ -41,13 +41,6 @@ Mini-projeto-SCTEC/
    git clone https://github.com/<thaysfaleiro>/Mini-projeto-SCTEC.git
    cd Mini-projeto-SCTEC
    ```
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Abra o notebook `Projeto_avaliativo_Módulo_1.ipynb` no Google Colab.
-4. Na Célula 1, autentique-se com sua conta Google quando solicitado (é necessário acesso à planilha de origem no Google Sheets, ou adaptação do código para carregar um CSV local equivalente).
-5. Execute as células em ordem sequencial (Fases 1 a 7).
 
 ## Resultados
 
@@ -58,7 +51,7 @@ Mini-projeto-SCTEC/
 
 > **Nota sobre a métrica:** o dataset é fortemente desbalanceado (~96,6% dos registros são "sem falha"), portanto a acurácia isolada não é a métrica mais adequada para decidir o modelo final — um classificador que sempre prevê "sem falha" atingiria acurácia próxima disso sem detectar nenhuma falha real. Recomenda-se complementar a avaliação com **Recall** e **F1-Score** da classe "falha" antes de declarar um modelo vencedor.
 
-## Próximos Passos
+## Sugestões futuras
 
 - Substituir a acurácia por métricas focadas em minimizar falsos negativos (Recall, F1-Score).
 - Testar modelos de ensemble (Random Forest, XGBoost).
