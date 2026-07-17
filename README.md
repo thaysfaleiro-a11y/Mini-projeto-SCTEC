@@ -61,7 +61,7 @@ cd Mini-projeto-SCTEC
 
 ## Autor
 
-Desenvolvido por * **Thays Faleiro** - [GitHub](https://github.com/thaysfaleiro-a11y) como projeto avaliativo do Módulo 1 do curso de Desenvolvimento em IA para Análise Preditiva — SCTEC.
+Desenvolvido por  **Thays Faleiro** - [GitHub](https://github.com/thaysfaleiro-a11y) como projeto avaliativo do Módulo 1 do curso de Desenvolvimento em IA para Análise Preditiva — SCTEC.
 
 
 
