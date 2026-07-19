@@ -1,46 +1,182 @@
-# Pipeline Preditivo para a Indústria 4.0
+# 🚀 Pipeline Preditivo para Manutenção Industrial (Indústria 4.0)
 
-Este projeto consiste em um pipeline preditivo completo para a previsão de falhas mecânicas em equipamentos industriais. Desenvolvido como o Projeto Avaliativo do Módulo 1 do curso de Desenvolvedor(a) em IA para Análise Preditiva (SCTEC), o sistema utiliza técnicas de preparação de dados, engenharia de atributos e modelagem estatística aplicada ao contexto de manufatura inteligente.
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Objetivo do Projeto
+Sistema de **Machine Learning para predição de falhas mecânicas** em equipamentos industriais, desenvolvido como projeto avaliativo do **Módulo 1 do curso Desenvolvedor(a) em IA para Análise Preditiva (SCTEC)**.
 
-O objetivo principal consiste em analisar dados históricos de sensores de um parque fabril para prever quebras físicas em componentes mecânicos. Com isso, é possível reduzir paradas não planejadas na linha de produção, diminuir a depreciação precoce das máquinas e economizar custos operacionais. O pipeline aqui desenvolvido opera em modo batch (análise offline de dados históricos) e serve de base para uma futura solução de monitoramento em tempo real (ver seção "Próximos Passos").
+O projeto implementa um pipeline completo de Ciência de Dados — da obtenção e preparação dos dados ao treinamento e avaliação de modelos preditivos — simulando um cenário real de **Manutenção Preditiva na Indústria 4.0**.
 
-### A Variável Alvo:
-* **Falha = 1:** Avaria detectada no maquinário.
-* **Falha = 0:** Funcionamento operacional normal.
+---
 
-## Origem dos Dados
+## 📌 Objetivo
 
-Dataset baseado no *AI4I 2020 Predictive Maintenance Dataset* (UCI Machine Learning Repository), contendo 10.000 registros de sensores industriais (temperatura, velocidade de rotação, torque, desgaste de ferramenta) e a variável alvo de falha de máquina.
+Desenvolver um modelo capaz de identificar, antecipadamente, possíveis falhas em máquinas industriais a partir de dados coletados por sensores.
 
-## Tecnologias e Bibliotecas Utilizadas
+Esse tipo de solução permite:
 
-* **Python 3.10+**
-* **Pandas & NumPy** — limpeza, imputação estatística e manipulação dos dados brutos.
-* **Matplotlib & Seaborn** — geração de gráficos para análise exploratória de dados (EDA) e mapeamento de outliers.
-* **Scikit-Learn** — modelagem com classificadores (KNN e Árvore de Decisão), divisão estratificada e padronização escalar.
-* **Imbalanced-Learn (SMOTE)** — balanceamento sintético de classes no conjunto de treinamento para evitar viés de dados minoritários.
-* **Google API integration (gspread)** — conexão e carregamento dinâmico de dados hospedados em nuvem.
+- Reduzir paradas não programadas
+- Diminuir custos com manutenção corretiva
+- Aumentar a disponibilidade dos equipamentos
+- Prolongar a vida útil dos ativos industriais
+- Apoiar a tomada de decisão baseada em dados
 
-## Estrutura do Repositório
+O pipeline foi desenvolvido para execução em **modo batch**, utilizando dados históricos, com possibilidade de adaptação futura para processamento em tempo real.
+
+---
+
+## 🎯 Problema de Negócio
+
+Na indústria moderna, uma falha inesperada pode gerar elevados custos de produção e parada de linha.
+
+O objetivo é prever se um equipamento apresentará falha mecânica com base em informações de sensores industriais.
+
+### Variável Alvo
+
+| Valor | Significado |
+|:-----:|:------------|
+| `1` | Equipamento apresentou falha |
+| `0` | Equipamento operando normalmente |
+
+---
+
+## 📊 Base de Dados
+
+O projeto utiliza o **[AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset)**, disponibilizado pela UCI Machine Learning Repository.
+
+O conjunto contém aproximadamente **10.000 registros** de sensores industriais, incluindo:
+
+| Sensor | Descrição |
+|--------|-----------|
+| 🌡️ Temperatura do ar | Temperatura ambiente medida em [K] |
+| 🔥 Temperatura do processo | Temperatura do processo produtivo [K] |
+| ⚙️ Velocidade de rotação | Rotação do equipamento [rpm] |
+| 🔩 Torque | Torque aplicado [Nm] |
+| 🛠️ Desgaste da ferramenta | Tempo de uso da ferramenta [min] |
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **Python 3.10+**
+- **Pandas** / **NumPy** — manipulação e tratamento de dados
+- **Matplotlib** / **Seaborn** — visualização e EDA
+- **Scikit-Learn** — modelagem e avaliação
+- **Imbalanced-Learn (SMOTE)** — balanceamento de classes
+- **Google Sheets API (gspread)** — integração de dados
+
+---
+
+## ⚙️ Pipeline Desenvolvido
+
+1. **Coleta dos dados**
+2. **Limpeza e tratamento dos dados**
+3. **Análise Exploratória (EDA)**
+4. **Engenharia de Atributos**
+5. **Balanceamento das Classes (SMOTE)**
+6. **Treinamento dos Modelos**
+7. **Avaliação dos Resultados**
+
+---
+
+## 📂 Estrutura do Projeto
 
 ```text
 Mini-projeto-SCTEC/
-├── README.md                          # Documentação principal do projeto
-├── requirements.txt                   # Dependências e pacotes necessários
-├── Projeto_avaliativo_Módulo_1.ipynb  # Notebook oficial contendo as 7 fases do pipeline
-├── manutencao_preditiva.csv           # Base de dados utilizada no projeto
-├── anotacoes do Departamento de E...  # Documento auxiliar com regras de negócio e anotações
-├── grafico_boxplots_fase2.png         # Gráfico gerado na Análise Exploratória (Fase 2)
-├── grafico_eda_fase1.png              # Gráfico gerado na Análise Exploratória (Fase 1)
-├── pipeline_preditivo_fluxograma.png   # Fluxograma visual do modelo preditivo
-└── roteiro_projeto_preditivo.png       # Imagem com o roteiro e planejamento do projeto
+│
+├── README.md
+├── requirements.txt
+├── Projeto_avaliativo_Modulo_1.ipynb
+├── manutencao_preditiva.csv
+├── anotacoes_departamento_engenharia.pdf
+├── grafico_eda_fase1.png
+├── grafico_boxplots_fase2.png
+├── pipeline_preditivo_fluxograma.png
+└── roteiro_projeto_preditivo.png
+```
+
+---
+
+## ▶️ Como Executar
+
+**1. Clone o repositório**
+
+```bash
+git clone https://github.com/thaysfaleiro-a11y/Mini-projeto-SCTEC.git
+cd Mini-projeto-SCTEC
+```
+
+**2. Crie um ambiente virtual (opcional, mas recomendado)**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+```
+
+**3. Instale as dependências**
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Abra o notebook**
+
+```bash
+jupyter notebook Projeto_avaliativo_Modulo_1.ipynb
+```
+
+---
+
+## 📈 Resultados
+
+| Modelo | Acurácia |
+|--------|---------:|
+| KNN (k = 5) | **89,65%** |
+| Árvore de Decisão (max_depth = 5) | **90,20%** |
+
+### 📌 Como interpretar esses números
+
+O conjunto de dados apresenta forte desbalanceamento: **cerca de 96,6% dos registros pertencem à classe "sem falha"**.
+
+Isso significa que **a acurácia isoladamente não representa o real desempenho do modelo** — um classificador ingênuo, que sempre previsse "sem falha", já atingiria acurácia elevada sem detectar nenhuma falha de fato.
+
+Por isso, os próximos passos deste projeto incluem a análise de métricas mais adequadas a cenários desbalanceados:
+
+- **Recall** — capacidade de identificar as falhas reais
+- **Precision** — confiabilidade das previsões positivas
+- **F1-Score** — equilíbrio entre recall e precision
+- **Matriz de Confusão** — visão detalhada dos acertos e erros
+- **Curva ROC-AUC** — desempenho geral do classificador
+
+> 💡 Em manutenção preditiva, um falso negativo (não detectar uma falha real) costuma ser muito mais custoso que um falso positivo — por isso o recall tende a ser a métrica prioritária nesse tipo de aplicação.
+
+---
+
+## 🔮 Próximos Passos
+
+- [ ] Implementar Random Forest
+- [ ] Implementar XGBoost
+- [ ] Avaliar LightGBM
+- [ ] Aplicar Cross Validation
+- [ ] Otimização de hiperparâmetros (Grid Search)
+- [ ] Criar atributos temporais (Rolling Window)
+- [ ] Desenvolver pipeline para inferência em tempo real
+- [ ] Integrar o modelo a sistemas SCADA/IIoT
+
+---
+
+## 🎥 Demonstração
+
+👉 [Assista ao vídeo do projeto](https://drive.google.com/file/d/1GRGWp3bc6IDFTmRHYYHE1oFZUIbKYTRf/view?usp=sharing)
+
+---
+
+## 👩‍💻 Autora
+**Thays Faleiro** 
+🤖 Estudante de Inteligência Artificial aplicada à Análise Preditiva
+
+[![GitHub](https://img.shields.io/badge/GitHub-thaysfaleiro--a11y-181717?logo=github)](https://github.com/thaysfaleiro-a11y)
 
 
-
-
-
-
-
-
+Considere deixar uma **⭐ Star** no repositório. Isso ajuda a divulgar o projeto e incentiva o desenvolvimento de novas soluções em Ciência de Dados e Inteligência Artificial.
