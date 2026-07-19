@@ -30,8 +30,6 @@ O objetivo deste projeto é prever se determinado equipamento apresentará falha
 
 ### Variável Alvo
 
-### Variável Alvo
-
 | Valor | Significado |
 |:-----:|:------------|
 | `1` | Equipamento apresentou falha |
