@@ -1,4 +1,4 @@
-# 🚀 Pipeline Preditivo para Manutenção Industrial (Indústria 4.0)
+# Análise Preditiva para Manutenção Industrial (Indústria 4.0)
 
 Sistema de **Machine Learning para predição de falhas mecânicas** em equipamentos industriais, desenvolvido como projeto avaliativo do **Módulo 1 do curso Desenvolvedor(a) em IA para Análise Preditiva (SCTEC)**.
 
@@ -6,7 +6,7 @@ O projeto implementa um pipeline completo de Ciência de Dados, contemplando des
 
 ---
 
-## 📌 Objetivo
+## Objetivo
 
 Desenvolver um modelo capaz de identificar, antecipadamente, possíveis falhas em máquinas industriais a partir de dados coletados por sensores.
 
@@ -22,7 +22,7 @@ O pipeline foi desenvolvido para execução em **modo batch**, utilizando dados 
 
 ---
 
-## 🎯 Problema de Negócio
+## Desafio problema do projeto:
 
 Na indústria moderna, uma falha inesperada pode gerar elevados custos de produção.
 
@@ -35,21 +35,19 @@ O objetivo deste projeto é prever se determinado equipamento apresentará falha
 
 ---
 
-## 📊 Base de Dados
-
-O projeto utiliza o **AI4I 2020 Predictive Maintenance Dataset**, disponibilizado pela **UCI Machine Learning Repository**.
+## Base de Dados
 
 O conjunto contém aproximadamente **10.000 registros** de sensores industriais, incluindo:
 
-- 🌡️ Temperatura do ar
-- 🔥 Temperatura do processo
-- ⚙️ Velocidade de rotação
-- 🔩 Torque
-- 🛠️ Desgaste da ferramenta
+- Temperatura do ar
+- Temperatura do processo
+- Velocidade de rotação
+- Torque
+- Desgaste da ferramenta
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.10+
 - Pandas
@@ -62,7 +60,7 @@ O conjunto contém aproximadamente **10.000 registros** de sensores industriais,
 
 ---
 
-## ⚙️ Pipeline Desenvolvido
+## Pipeline Desenvolvido
 
 O projeto contempla todas as etapas de um pipeline de Machine Learning:
 
@@ -70,13 +68,13 @@ O projeto contempla todas as etapas de um pipeline de Machine Learning:
 2. Limpeza e tratamento dos dados
 3. Análise Exploratória (EDA)
 4. Engenharia de Atributos
-5. Balanceamento das Classes (SMOTE)
+5. Balanceamento das Classes
 6. Treinamento dos Modelos
 7. Avaliação dos Resultados
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 Mini-projeto-SCTEC/
@@ -94,7 +92,7 @@ Mini-projeto-SCTEC/
 
 ---
 
-## ▶️ Como Executar
+## Como Executar
 
 Clone o repositório:
 
@@ -118,14 +116,14 @@ Projeto_avaliativo_Módulo_1.ipynb
 
 ---
 
-## 📈 Resultados
+## Resultados
 
 | Modelo | Acurácia |
 |---------|---------:|
 | KNN (k = 5) | **89,65%** |
 | Árvore de Decisão (max_depth = 5) | **90,20%** |
 
-### 📌 Observação Importante
+### Observação Importante
 
 O conjunto de dados apresenta forte desbalanceamento (**aproximadamente 96,6% dos registros pertencem à classe "sem falha"**).
 
@@ -143,44 +141,26 @@ Essas métricas permitem avaliar melhor a capacidade do modelo em identificar co
 
 ---
 
-## 🔮 Próximos Passos
+## Sugestões futuras:
 
 - Implementar Random Forest
-- Implementar XGBoost
-- Avaliar LightGBM
 - Aplicar Cross Validation
-- Realizar otimização de hiperparâmetros (Grid Search)
-- Criar atributos temporais (Rolling Window)
 - Desenvolver pipeline para inferência em tempo real
 - Integrar o modelo a sistemas SCADA/IIoT
 
 ---
 
-## 🎥 Demonstração
+## Assista ao vídeo do projeto:
 
-Assista ao vídeo do projeto:
-
-👉 https://drive.google.com/file/d/1GRGWp3bc6IDFTmRHYYHE1oFZUIbKYTRf/view?usp=sharing
+https://drive.google.com/file/d/1GRGWp3bc6IDFTmRHYYHE1oFZUIbKYTRf/view?usp=sharing
 
 ---
 
-## 👩‍💻 Autora
+## Aluna
 
 **Thays Faleiro**
 
-🎓 Administradora
-
-🎓 Tecnóloga em Gestão de Recursos Humanos
-
-🎓 Pós-graduada em Gestão Empresarial
-
-🤖 Estudante de Inteligência Artificial aplicada à Análise Preditiva
-
 GitHub:
-https://github.com/thaysfaleiro-a11y
+[![GitHub](https://img.shields.io/badge/GitHub-thaysfaleiro--a11y-181717?logo=github)](https://github.com/thaysfaleiro-a11y)
 
----
 
-## ⭐ Se este projeto foi útil para você
-
-Considere deixar uma **⭐ Star** no repositório. Isso ajuda a divulgar o projeto e incentiva o desenvolvimento de novas soluções em Ciência de Dados e Inteligência Artificial.
