@@ -1,8 +1,8 @@
 # Análise Preditiva para Manutenção Industrial
 
-Sistema de machine learning para predição de falhas mecânicas em equipamentos industriais, desenvolvido como projeto avaliativo do Módulo 1 do curso Desenvolvedor(a) em IA para Análise Preditiva (SCTEC).
+Sistema de machine learning para predição de falhas mecânicas em equipamentos industriais, desenvolvido como projeto avaliativo do módulo 1 do curso desenvolvedor(a) em IA para análise preditiva (SCTEC).
 
-O projeto implementa um pipeline completo de ciência de dados, contemplando desde a obtenção e preparação dos dados até o treinamento e avaliação de modelos preditivos, simulando um cenário real de Manutenção Preditiva na Indústria 4.0.
+O projeto implementa um pipeline completo de ciência de dados, contemplando desde a obtenção e preparação dos dados até o treinamento e avaliação de modelos preditivos, simulando um cenário real de manutenção preditiva na indústria 4.0.
 
 ---
 
@@ -18,7 +18,7 @@ A utilização desse tipo de solução permite:
 - Prolongar a vida útil dos ativos industriais;
 - Apoiar a tomada de decisão baseada em dados.
 
-O pipeline foi desenvolvido para execução em modo batch, utilizando dados históricos, podendo futuramente ser adaptado para processamento em tempo real.
+O pipeline foi desenvolvido para execução, utilizando dados históricos, podendo futuramente ser adaptado para processamento em tempo real.
 
 ---
 
@@ -153,7 +153,7 @@ Essas métricas permitem avaliar melhor a capacidade do modelo em identificar co
 
 ---
 
-## Assista ao vídeo do projeto:
+## Vídeo do projeto:
 
 https://drive.google.com/file/d/1GRGWp3bc6IDFTmRHYYHE1oFZUIbKYTRf/view?usp=sharing
 
