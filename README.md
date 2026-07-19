@@ -57,6 +57,7 @@ cd Mini-projeto-SCTEC
 - Integrar o pipeline a sistemas SCADA para inferência em tempo real.
 
 - ## Vídeo de demonstração
+- https://drive.google.com/file/d/1GRGWp3bc6IDFTmRHYYHE1oFZUIbKYTRf/view?usp=sharing
 
 
 ## Autor
