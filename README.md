@@ -1,8 +1,8 @@
-# Análise Preditiva para Manutenção Industrial (Indústria 4.0)
+# Análise Preditiva para Manutenção Industrial
 
-Sistema de **Machine Learning para predição de falhas mecânicas** em equipamentos industriais, desenvolvido como projeto avaliativo do **Módulo 1 do curso Desenvolvedor(a) em IA para Análise Preditiva (SCTEC)**.
+Sistema de machine learning para predição de falhas mecânicas em equipamentos industriais, desenvolvido como projeto avaliativo do Módulo 1 do curso Desenvolvedor(a) em IA para Análise Preditiva (SCTEC).
 
-O projeto implementa um pipeline completo de Ciência de Dados, contemplando desde a obtenção e preparação dos dados até o treinamento e avaliação de modelos preditivos, simulando um cenário real de **Manutenção Preditiva na Indústria 4.0**.
+O projeto implementa um pipeline completo de ciência de dados, contemplando desde a obtenção e preparação dos dados até o treinamento e avaliação de modelos preditivos, simulando um cenário real de Manutenção Preditiva na Indústria 4.0.
 
 ---
 
@@ -18,7 +18,7 @@ A utilização desse tipo de solução permite:
 - Prolongar a vida útil dos ativos industriais;
 - Apoiar a tomada de decisão baseada em dados.
 
-O pipeline foi desenvolvido para execução em **modo batch**, utilizando dados históricos, podendo futuramente ser adaptado para processamento em tempo real.
+O pipeline foi desenvolvido para execução em modo batch, utilizando dados históricos, podendo futuramente ser adaptado para processamento em tempo real.
 
 ---
 
@@ -30,14 +30,19 @@ O objetivo deste projeto é prever se determinado equipamento apresentará falha
 
 ### Variável Alvo
 
-- **Falha = 1** → Equipamento apresentou falha.
-- **Falha = 0** → Equipamento operando normalmente.
+### Variável Alvo
 
+| Valor | Significado |
+|:-----:|:------------|
+| `1` | Equipamento apresentou falha |
+| `0` | Equipamento operando normalmente |
+
+---
 ---
 
 ## Base de Dados
 
-O conjunto contém aproximadamente **10.000 registros** de sensores industriais, incluindo:
+O conjunto contém aproximadamente 10.000 registros de sensores industriais, incluindo:
 
 - Temperatura do ar
 - Temperatura do processo
@@ -62,7 +67,7 @@ O conjunto contém aproximadamente **10.000 registros** de sensores industriais,
 
 ## Pipeline Desenvolvido
 
-O projeto contempla todas as etapas de um pipeline de Machine Learning:
+O projeto contempla todas as etapas de um pipeline de machine learning:
 
 1. Coleta dos dados
 2. Limpeza e tratamento dos dados
